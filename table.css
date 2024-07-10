@@ -1,0 +1,81 @@
+.event{
+    display: inline-block;
+    border: 2px solid black;
+    /* background-color: aqua; */
+    width:100%;
+    margin:auto;
+    height:580px;
+}
+.event .head{
+width: 100%;
+height: 92px;
+/* background-color: azure; */
+/*border: 2px solid black transparent;*/
+text-align: center;
+}
+.event .content{
+width: 90%;
+Height: 400px;
+border: 2px solid black transparent;
+/* background-color: blueviolet; */
+margin:auto;
+}
+.event .content .div1{
+border: 3px solid black ;
+width: 40%;
+/* background-color: blue; */
+float: left;
+height:100%;
+}
+.event .content .div2{
+border: 3px solid black;
+width: 59%;
+/* background-color: rgb(64, 64, 90); */
+float: right;
+height:100%;
+}
+.event .content .div1 #image{
+border: 2px solid black;
+/* background-color: brown; */
+width: 50%;
+height:50%;
+margin: 5rem 5rem 5rem 7rem;
+}
+.event .content .div1 #image > .circle{
+    border:2px solid black;
+    height:60%;
+    width:50%;
+    border-radius:100%;
+    display: inline-block;
+    margin:2.5rem 3.5rem;
+}
+.event .content .div1 #image > .circle > p{
+align-items: center;
+margin: 3rem 2.5rem;
+}
+.event .content .div1 #circle{
+    align-items: center;
+}
+.event .content .div2 .form{
+padding: 20px ;
+text-align: right;
+}
+.event .content .div2 .form #seat{
+    width: 11rem;
+}
+.event .content .div2 .form > label{
+    max-width: 150px;
+}
+.event .content .div2 .btn{
+    width:100%;
+    height:80px;
+    border:2px solid black transparent;
+}
+.event .content .div2 .btn > input{
+text-align: center;
+font-size: 1rem;
+margin:2rem 5rem;
+width:10rem;
+height: 2rem;
+}
+
